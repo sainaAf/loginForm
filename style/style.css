@@ -1,0 +1,84 @@
+body {
+    background-color: antiquewhite;
+}
+
+.containerForm {
+    background-color: white;
+    width: 55%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+@media (max-width:576px) {
+    .containerForm {
+        width: 80%;
+    }
+}
+
+.containerImage {
+    margin: 0 auto;
+    width: max-content;
+}
+
+
+.containerForm h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: rgb(151, 96, 96);
+}
+
+.logInForm {
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.input {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    margin: 10px 0;
+}
+
+.input-div {
+    border-bottom: 1px solid rgba(209, 158, 158, 0.815);
+}
+
+i {
+    color: rgb(161, 161, 161);
+    font-size: 14px;
+}
+
+.errorSpan {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: none;
+    text-align: center;
+}
+
+.btnLogIn {
+    cursor: pointer;
+    width: 130px;
+    border: none;
+    background-color: rgba(209, 158, 158, 0.815);
+    padding: 8px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.btnLogIn:hover {
+    background-color: rgba(155, 121, 121, 0.815);
+}
+
+#iconField {
+    cursor: pointer;
+}
+
+#eye-slash {
+    display: none;
+}
